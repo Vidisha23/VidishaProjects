@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            CreateTaskView(taskModel: taskModel)
+            CreateTaskView(name: "Vidisha", taskModel: taskModel)
             .tabItem {
                 Label("Create Task", systemImage: "pencil")
             }
@@ -21,7 +21,6 @@ struct ContentView: View {
                 Label("Tasks List", systemImage: "list.bullet.rectangle")
             }
         }
-        .padding()
         .ignoresSafeArea()
     }
     

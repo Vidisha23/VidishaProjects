@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3310D0C32D883BE2005F18CE /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3310D0C22D883BE2005F18CE /* CustomModifiers.swift */; };
+		3310D0C62D883D13005F18CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3310D0C52D883D13005F18CE /* Extensions.swift */; };
 		33C157B02D833B2400085EE7 /* PracticeTestSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C157AF2D833B2400085EE7 /* PracticeTestSwiftUIApp.swift */; };
 		33C157B22D833B2400085EE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C157B12D833B2400085EE7 /* ContentView.swift */; };
 		33C157B42D833B2600085EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C157B32D833B2600085EE7 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3310D0C22D883BE2005F18CE /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		3310D0C52D883D13005F18CE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		33C157AC2D833B2400085EE7 /* PracticeTestSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeTestSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C157AF2D833B2400085EE7 /* PracticeTestSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTestSwiftUIApp.swift; sourceTree = "<group>"; };
 		33C157B12D833B2400085EE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +44,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3310D0C12D883BC5005F18CE /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				3310D0C22D883BE2005F18CE /* CustomModifiers.swift */,
+			);
+			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
+		3310D0C42D883D00005F18CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3310D0C52D883D13005F18CE /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		33C157A32D833B2400085EE7 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +79,8 @@
 		33C157AE2D833B2400085EE7 /* PracticeTestSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				3310D0C42D883D00005F18CE /* Extensions */,
+				3310D0C12D883BC5005F18CE /* CustomModifiers */,
 				33C157BD2D83412800085EE7 /* Models */,
 				33C157AF2D833B2400085EE7 /* PracticeTestSwiftUIApp.swift */,
 				33C157B12D833B2400085EE7 /* ContentView.swift */,
@@ -160,8 +182,10 @@
 				33C157C12D8342C200085EE7 /* Task.swift in Sources */,
 				33C157C32D834C3A00085EE7 /* CreateTaskView.swift in Sources */,
 				33C157BF2D83413C00085EE7 /* TaskModel.swift in Sources */,
+				3310D0C62D883D13005F18CE /* Extensions.swift in Sources */,
 				33C157C52D83506400085EE7 /* TasksListView.swift in Sources */,
 				33C157B22D833B2400085EE7 /* ContentView.swift in Sources */,
+				3310D0C32D883BE2005F18CE /* CustomModifiers.swift in Sources */,
 				33C157B02D833B2400085EE7 /* PracticeTestSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
